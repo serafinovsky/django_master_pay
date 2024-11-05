@@ -18,6 +18,9 @@ class PurseType(object):
     TYPE_USDTERC20 = 'USDTERC20'        # USDT (Etherium)
     TYPE_PAYTM = 'PAYTM'                # PayTM
     TYPE_IMPS = 'IMPS'                  # IMPS
+    TYPE_PAYPAL_EMAIL = 'PAYPAL_EMAIL'  # PayPal с идентификацие через email
+    TYPE_PAYPAL_PHONE = 'PAYPAL_PHONE'  # PayPal с идентификацие через PAYPAL_PHONE
+    TYPE_PAYPAL_ID = 'PAYPAL_ID'        # PayPal с идентификацие через PAYPAL_ID
 
 
 class Currency(object):
